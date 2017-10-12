@@ -24,11 +24,10 @@ public class TestController {
 
 
     static {
-
         test();
     }
     private static void  test(){
-        System.out.println("初始化项目所需要的");
+        System.out.println("初始化项目所需要的。。。。。。");
     }
     @RequestMapping("/test")
     public void list(HttpServletRequest request, HttpServletResponse response) {
